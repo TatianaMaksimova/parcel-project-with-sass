@@ -1,0 +1,23 @@
+{
+  "name": "parcel-test",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+ 
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "@parcel/babel-plugin-transform-runtime": "^2.4.0",
+    "@parcel/babel-preset-env": "^2.4.0"
+  }
+}
